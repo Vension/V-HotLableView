@@ -2,11 +2,11 @@
 A simple and practical label control, easy to add the latest and hottest labels, etc.
 
 <p align="center">
-   <a href="https://bintray.com/vension/vensionCenter/MultiStateLayout/_latestVersion">
-    <img src="https://img.shields.io/badge/Jcenter-V1.0.1-brightgreen.svg?style=flat-square" alt="Latest Stable Version" />
+   <a href="https://bintray.com/vension/vensionCenter/HotLableView/_latestVersion">
+    <img src="https://img.shields.io/badge/Jcenter-V1.0.0-brightgreen.svg?style=flat-square" alt="Latest Stable Version" />
   </a>
-  <a href="https://travis-ci.org/Vension/V-MultiStateLayout">
-    <img src="https://travis-ci.org/Vension/V-MultiStateLayout.svg?branch=master" alt="Build Status" />
+  <a href="https://travis-ci.org/Vension/V-HotLableView">
+    <img src="https://travis-ci.org/Vension/V-HotLableView.svg?branch=master" alt="Build Status" />
   </a>
   <a href="https://developer.android.com/about/versions/android-4.0.html">
     <img src="https://img.shields.io/badge/API-15%2B-blue.svg?style=flat-square" alt="Min Sdk Version" />
@@ -21,7 +21,7 @@ A simple and practical label control, easy to add the latest and hottest labels,
 
 ## Preview
 <p>
-   <img src="/images/GIF.gif" style="width: 50%;">
+   <img src="images/GIF.gif" style="width: 50%;">
 </p>
 
 ## Download[ ![Download](https://api.bintray.com/packages/vension/vensionCenter/HotLableView/images/download.svg) ](https://bintray.com/vension/vensionCenter/HotLableView/_latestVersion)
@@ -36,7 +36,7 @@ A simple and practical label control, easy to add the latest and hottest labels,
 
 * **具体使用查看demo示例**
 
-######使用空边标签时
+####使用空边标签时
 ```
 <FrameLayout
             android:layout_width="match_parent"
@@ -90,7 +90,7 @@ A simple and practical label control, easy to add the latest and hottest labels,
                 app:hlv_textSize="8sp"/>
     </FrameLayout>
 ```
-#####使用浮嵌标签时
+####使用浮嵌标签时
 
 要注意容器的android:layout_margin="3dp"必须和app:hlv_fillSize="3"值一样
 ```
@@ -119,7 +119,7 @@ A simple and practical label control, easy to add the latest and hottest labels,
 ```
 
 
-#### attrs
+### attrs
 
 | Attribute 属性         | Description 描述 |
 |:---				    |:---|
