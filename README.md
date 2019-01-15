@@ -2,11 +2,11 @@
 A simple and practical label control, easy to add the latest and hottest labels, etc.
 
 <p align="center">
-   <a href="https://bintray.com/vension/vensionCenter/MultiStateLayout/_latestVersion">
+   <a href="https://bintray.com/vension/vensionCenter/HotLableView/_latestVersion">
     <img src="https://img.shields.io/badge/Jcenter-V1.0.1-brightgreen.svg?style=flat-square" alt="Latest Stable Version" />
   </a>
-  <a href="https://travis-ci.org/Vension/V-MultiStateLayout">
-    <img src="https://travis-ci.org/Vension/V-MultiStateLayout.svg?branch=master" alt="Build Status" />
+  <a href="https://travis-ci.org/Vension/V-HotLableView">
+    <img src="https://travis-ci.org/Vension/V-HotLableView.svg?branch=master" alt="Build Status" />
   </a>
   <a href="https://developer.android.com/about/versions/android-4.0.html">
     <img src="https://img.shields.io/badge/API-15%2B-blue.svg?style=flat-square" alt="Min Sdk Version" />
@@ -21,7 +21,7 @@ A simple and practical label control, easy to add the latest and hottest labels,
 
 ## Preview
 <p>
-   <img src="/images/GIF.gif" style="width: 50%;">
+   <img src="images/GIF.gif" style="width: 50%;">
 </p>
 
 ## Download[ ![Download](https://api.bintray.com/packages/vension/vensionCenter/HotLableView/images/download.svg) ](https://bintray.com/vension/vensionCenter/HotLableView/_latestVersion)
