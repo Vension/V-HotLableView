@@ -117,7 +117,7 @@ class HotLableView @JvmOverloads constructor(context: Context,val attrs: Attribu
                 mPath.lineTo(0f, size.toFloat())
                 mPath.lineTo(size.toFloat(), 0f)
                 mPath.close()
-                canvas?.drawPath(mPath, mBackgroundPaint)
+                canvas.drawPath(mPath, mBackgroundPaint)
 
                 drawTextWhenFill(size, (-DEFAULT_DEGREES).toFloat(), canvas, true)
             } else if (mGravity == Gravity.TOP or Gravity.RIGHT) {
@@ -217,7 +217,7 @@ class HotLableView @JvmOverloads constructor(context: Context,val attrs: Attribu
         val delta = if (isTop) -(textHeight + mPadding * 2) / 2 else (textHeight + mPadding * 2) / 2
         val textBaseY = size / 2 - (mTextPaint.descent() + mTextPaint.ascent()) / 2 + delta
         canvas.drawText(
-            if (mTextAllCaps) mTextContent?.toUpperCase() else mTextContent,
+            if (mTextAllCaps) mTextContent.toUpperCase() else mTextContent,
             (paddingLeft + (size - paddingLeft - paddingRight) / 2).toFloat(), textBaseY, mTextPaint
         )
         canvas.restore()
