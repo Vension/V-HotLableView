@@ -18,7 +18,7 @@ import android.view.View
  * @desc:   一个简单实用的标签控件,轻松添加最新最热等标签
  * ===================================================================
  */
-class HotLableView @JvmOverloads constructor(context: Context,val attrs: AttributeSet? = null,defStyleAttr: Int = 0)
+class HotLableView @JvmOverloads constructor(context: Context, private val attrs: AttributeSet? = null, defStyleAttr: Int = 0)
     : View(context,attrs,defStyleAttr) {
 
     //标签文本
